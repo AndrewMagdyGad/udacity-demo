@@ -1,0 +1,18 @@
+version: 2.1
+orbs:
+    node: circleci/node@4.1.0
+jobs:
+    build:
+        docker:
+            - image: "cimg/base:stable"
+        steps:
+            - node/install
+            - checkout
+            - run:
+                  name: Install Front-End
+                  command: |
+                      npm run frontend:install
+            - run:
+                  name: Build Front-End
+                  command: |
+                      npm run frontend:build
