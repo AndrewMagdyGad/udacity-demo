@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "frontend:install": "cd reactnd-contacts-complete && npm install",
-        "frontend:build": "cd reactnd-contacts-complete && npm run build"
+        "frontend:install": "cd client && npm install",
+        "frontend:build": "cd client && npm run build"
     }
 }
