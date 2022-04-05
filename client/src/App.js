@@ -32,7 +32,6 @@ class App extends Component {
     render() {
         return (
             <div>
-                This is the updated one of our CI/CD
                 <Route
                     exact
                     path="/"
