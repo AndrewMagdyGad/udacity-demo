@@ -1,1 +1,1 @@
-aws s3 cp --recursive --acl public-read ./build s3://udacitytestbucket/ --cache-control max-age=1,s-maxage=1
+aws s3 cp --recursive --acl public-read  ./build s3://udacitytestbucket/
