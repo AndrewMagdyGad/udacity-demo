@@ -40,7 +40,7 @@ class ListContacts extends Component {
 
         return (
             <div className="list-contacts">
-                This is a new version of our app
+                This will not trigger our pipeline
                 <div className="list-contacts-top">
                     <input
                         className="search-contacts"
