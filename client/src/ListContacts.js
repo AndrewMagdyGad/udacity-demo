@@ -40,7 +40,7 @@ class ListContacts extends Component {
 
         return (
             <div className="list-contacts">
-                This is the updated one of our CI/CD
+                This is a new version of our app
                 <div className="list-contacts-top">
                     <input
                         className="search-contacts"
